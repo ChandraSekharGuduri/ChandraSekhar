@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const APPLE_URL = "http://localhost:8080/api/v1/apple";
+const Name= "chandra";
 
 export const appleList = () => {
   return axios.get(APPLE_URL);
